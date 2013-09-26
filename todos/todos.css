@@ -1,0 +1,61 @@
+html,head,body{
+	margin: 0;
+}
+body{
+	padding-top: 10;
+	background: #50BE50;
+    width: 520;
+    margin: 0 auto;
+    font-size: 32;
+    line-height: 1.4em;
+}
+#todoapp{
+	background: #E9C883;
+    padding: 0.5px 5px;
+	box-shadow: 0px 1px 0px 1px;
+	border-bottom-right-radius: 15;
+	border-top-left-radius: 15;
+}
+h1{
+	font-size: 36px;
+	text-align: center;
+}
+#new_todo{
+	width: 480;
+	padding: 5px 5px;
+	font-size: 24;
+	line-height: 1.4em;
+	color: gray;
+	text-align: center;
+}
+ul{
+	padding: 10;
+}
+li{
+	list-style: none;
+	font-size: 24;
+	line-height: 1.4em;
+	padding: 5px;
+	border-bottom: solid 1px;
+}
+li .edit{
+	display: none;
+	width: 450;
+	padding: 5;
+	font-size: 24;
+	line-height: 1.2em;
+}
+li.done label{
+	text-decoration: line-through;
+}
+li.editing .view{
+	display: none;
+}
+li.editing .edit{
+	display: block;
+}
+footer{
+	text-align: right;
+	font-size: 18;
+	color: gray;
+}

@@ -1,0 +1,50 @@
+body {
+	background-color: #18BD2C;
+}
+div.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+div.header {
+	clear:left;
+	text-align: center;
+	background-color: gray;
+	padding: 0.5em;
+	margin: 0;
+}
+div.footer {
+	clear:left;
+	background-color: gray;
+	padding: 0.5em;
+	margin: 0;
+}
+div.left {
+	float: left;
+	width: 200px;
+	border-right-style: dotted;
+	border-right-width: thin;
+	border-right-color: black;
+	padding: 1em;
+}
+div.right {
+	float: right;
+	width: 200px;
+}
+
+div.content {
+	margin-left: 260px
+}
+
+div.content ul {
+	list-style: none;
+}
+
+div.content img {
+	float: right;
+	width: 60px;
+}
+
+div.content p {
+
+}

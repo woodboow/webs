@@ -1,0 +1,38 @@
+1.
+
+html>(head>title{Todo App})+(body>div#todoapp>header+section+footer)
+
+2.body:
+(li>(div.view>input[type=checkbox]+label{Todo0$})+input.edit)*3
+
+3.head:
+link>
+
+4.todo.css
+html,head,body{
+ margin:0;
+}
+
+5.chrome 开发者工具
+style下：
+background: #50BE50;
+width: 520;
+margin: 0 auto;
+font-size: 32;
+line-height: 1.4em;
+
+
+
+
+函数写法：
+1. var Person=new Person(a,b,c);
+2. function Person(a,b,c){
+	 this.a=a;
+	...
+	}
+3. var Person=function(a,b,c){   //匿名函数对象
+	this.a=a;
+	...
+	}
+
+

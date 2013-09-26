@@ -1,0 +1,48 @@
+body {
+	background-color: #18BD2C;
+	margin-left: 5em;
+}
+
+div.cannon {
+	width: 140px;
+	border: solid thin;
+	text-align: center;
+	background-color: gray;
+	border-radius: 10px;
+	margin: 3em;
+	box-shadow: 10px 10px 10px #00ff00;
+}
+
+div.panonsonic {
+	width: 340px;
+	border: solid 100;
+	text-align: center;
+	background-color: gray;
+	border-radius: 10px;
+	margin: 3em;
+	
+	border-image: url('../img/lx7.jpg') 24 300 round;
+}
+
+div.leika {
+	width: 140px;
+	border: solid thin;
+	text-align: center;
+	background-color: gray;
+	border-radius: 10px;
+	margin: 3em;
+}
+
+div.back {
+	width: 500px;
+	height: 500px;
+	background-image: url('../img/m9.jpg');
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	background-size: 70px;
+	border: red solid 15px;
+	padding: 2em;
+	margin: 2em;
+	font-size: 24px;
+	font-color: red;
+}

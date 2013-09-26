@@ -1,0 +1,7 @@
+1. 构造函数
+	return.js
+
+2. 测试性开发
+   nodejs 安装 mocha
+	tdd.js和person.js
+3. mocha tdd.js

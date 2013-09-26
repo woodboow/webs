@@ -1,0 +1,67 @@
+head {
+
+}
+
+body {
+	background-color: #61EC7D;
+}
+
+#part1 {
+		text-indent: 2em;
+}
+
+li {
+	list-style: none;
+	font-size: 18;
+	padding: 3;
+}
+
+textarea {
+	margin: 28;
+	background-image: url('../img/fog.jpg');
+	background-position: top center;
+	word-spacing: 2;
+}
+
+#indent5em {
+	text-indent: 5em;
+}
+
+#indent-2em {
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+#textInput {
+	text-align: right;
+}
+
+#part2 {
+	width: 500px;
+}
+
+h2 p {
+	text-indent: 20%;
+}
+
+p#left {
+	text-align: left;
+	text-transform: uppercase;
+	white-space: pre-line;
+}
+
+p#center {
+	text-align: center;
+	letter-spacing: 2px;
+	white-space: pre-wrap;
+}
+
+p#right {
+	text-align: right;
+	word-spacing: 23px;
+}
+
+h3#direction {
+	direction: rtl;
+	white-space: pre-line;
+}

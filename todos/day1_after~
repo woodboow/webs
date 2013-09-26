@@ -1,0 +1,8 @@
+TDD:	npm install -g mocha
+Debug:	npm install -g node-inspector
+        npm install -g express
+
+npm--node package manager
+
+
+sublime 插件 hint，检查编码

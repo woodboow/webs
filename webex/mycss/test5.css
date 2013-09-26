@@ -1,0 +1,70 @@
+body {
+	background-color: #17ef5d;
+}
+div.float {
+
+}
+
+div.header {
+	
+}
+
+div.left {
+	font-size: 24px;
+	float: left;
+}
+div.left img {
+	width: 100px;
+}
+
+div.right {
+	font-size: 24px;	
+	float: right;
+}
+
+div.right img {
+	width: 100px;
+}
+
+div.content p{
+	width: 400px;
+}
+
+div.footer {
+
+}
+
+h1, p {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.first{
+	font-size: 24;
+}
+
+.second{
+	font-style: italic;
+}
+
+.third{
+	background-color: gray;
+}
+
+.first.second.third {
+	text-decoration: line-through;
+}
+
+.first.third {
+	text-decoration: underline;
+}
+
+div.part1 {
+	width: 400px
+}
+
+#fixedCamera {
+	position: fixed;
+	top: 100px;
+	right: 200px;
+}

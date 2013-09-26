@@ -1,0 +1,47 @@
+body {
+	text-indent: 5em;
+	background-color: #23f456;
+}
+
+p#img {
+	font-size: 25;
+	font-family: Times;
+	font-style: italic;
+}
+
+img#fog1 {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 30px;
+
+	border: red solid thin;
+
+	margin-left: 20px;
+	margin-top: 2em;
+	margin-right: 10px;
+}
+img#fog2 {
+	padding-left: 3%;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+
+	border-color: red;
+	border-style: dashed;
+	border-width: thick;
+
+	margin-left: 20px;
+	margin-top: 2em;
+	margin-right: 10px;
+	margin-bottom: 5em;
+}
+
+h2 {
+	padding-top: 0;
+	margin-top: 0;
+	border-style: outset;
+}
+
+h1#margin{
+	border:red dashed thick ;
+}

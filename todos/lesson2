@@ -1,0 +1,34 @@
+调试方式：
+node-inspector
+node --debug-brk XX.js
+
+1. server.js
+
+var url = require('url');
+var fs = require('fs');
+
+var server = http.createServer(function(req,res){
+	var req_path = url.parse(req.url).pathname.slice(1);
+	fs.exists(req_path,function(exists){
+		if(!exists){
+			res.write('not found');
+			res.end();
+		}
+		console.log(req_path); //print how many file you required
+		fs.readFile(req_path,'utf-8',function(err,fc){
+			if(fc){
+				res.write(fc);
+				res.end();
+			}
+		})
+	});
+
+2. 函数
+函数三个调用方法
+函数定义方式
+var func = fun(){}
+function(){}
+
+3.继承
+**1. 原型继承，分割：经典代码：inhebit.js中的3-6行
+2. 复制继承: inhebit2.js 14-20行
